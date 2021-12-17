@@ -1,0 +1,35 @@
+/* Colors */
+
+// Primary Colors
+$dark-color: #0a0c17;
+$grey-color: #d0d6f9;
+$dark-grey-color: #474951;
+$white-color: #fff;
+
+// Neutral Colors
+$hover-state-color: #84858a;
+
+// Font Families
+$first-font-family: 'Bellefair', serif;
+$second-font-family: 'Barlow Condensed', sans-serif;
+
+// Font Sizes
+$h1-size: 150px;
+$h2-size: 100px;
+$h3-size: 56px;
+$h4-size: 32px;
+$h5-size: 28px;
+$sub-h1-size: 28px;
+$sub-h2-size: 14px;
+$nav-text-size: 16px;
+
+/* Media Queries Breakpoints */
+$maxMobile: "(max-width: 575px)";
+$minSmall: "(min-width: 576px)";
+$maxSmall: "(max-width: 767.5px)";
+$minMedium: "(min-width: 768px)";
+$maxMedium: "(max-width: 991px)";
+$minLarge: "(min-width: 992px)";
+$maxLarge: "(max-width: 1199px)";
+$minExtraLarge: "(min-width: 1200px)";
+$minDoubleExtraLarge: "(min-width: 1400px)";

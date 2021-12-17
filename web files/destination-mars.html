@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow&family=Barlow+Condensed&family=Bellefair&display=swap" rel="stylesheet">
+  <!-- Main CSS File -->
+  <link rel="stylesheet" href="css/style.css">
+  <!-- <link rel="stylesheet" href="style.css"> -->
+  <title>Frontend Mentor | Space tourism website</title>
+</head>
+<body>
+  <section class="page-container destination-page">
+    <!-- Start Header -->
+    <header>
+      <div class="container">
+        <div class="logo">
+          <img src="assets/shared/logo.svg" alt="logo">
+        </div>
+        <nav>
+          <img class="toggle-menu active" src="assets/shared/icon-hamburger.svg" alt="hamburger-icon">
+          <img class="close" src="assets/shared/icon-close.svg" alt="close-icon">
+          <ul>
+            <li class="nav-text"><a href="index.html"><span>00</span>Home</a></li>
+            <li class="nav-text active"><a href="destination-moon.html"><span>01</span>Destination</a></li>
+            <li class="nav-text"><a href="crew-commander.html"><span>02</span>Crew</a></li>
+            <li class="nav-text"><a href="technology-vehicle.html"><span>03</span>Technology</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <!-- End Header -->
+    <!-- Start Destination Section -->
+    <section class="destination">
+      <div class="container">
+        <h5 class="heading-five"><span>01</span>Pick your destination</h5>
+        <div class="description">
+          <div class="image">
+            <img src="assets/destination/image-mars.png" alt="mars-img">
+          </div>
+          <div class="info">
+            <ul class="tabs nav-text">
+              <li><a href="destination-moon.html">Moon</a></li>
+              <li class="active"><a href="destination-mars.html">Mars</a></li>
+              <li><a href="destination-europa.html">Europa</a></li>
+              <li><a href="destination-titan.html">Titan</a></li>
+            </ul>
+            <h2 class="heading-two">Mars</h2>
+            <p class="main-paragraph">
+              Don’t forget to pack your hiking boots. You’ll need them to tackle Olympus Mons, 
+              the tallest planetary mountain in our solar system. It’s two and a half times 
+              the size of Everest!
+            </p>
+            <div class="measurements">
+              <div class="distance subheading-one"><span class="subheading-two">Avg Distance</span>225 mil. km</div>
+              <div class="time subheading-one"><span class="subheading-two">Est. Travel Time</span>9 months</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End Destination Section -->
+    <div class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="https://www.frontendmentor.io/profile/MohMostafa-Web" target="_blank">MohMostafa</a>.
+    </div>
+  </section>
+  <script src="js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,44 @@
+.container {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+// Small Screen
+@media #{$minSmall} {
+  .container {
+    max-width: 540px;
+  }
+}
+// Medium Screen
+@media #{$minMedium} {
+  .container {
+    max-width: 720px;
+  }
+}
+// Large Screen
+@media #{$minLarge} {
+  .container {
+    max-width: 960px;
+  }
+}
+// Extra Large Screen
+@media #{$minExtraLarge} {
+  .container {
+    max-width: 1140px;
+  }
+}
+// Double Extra Large Screen
+@media #{$minDoubleExtraLarge} {
+  .container {
+    max-width: 1320px;
+  }
+}
+
+// Classes to add
+.text-center-sm {
+  @media #{$maxSmall} {
+    text-align: center;
+  }
+}

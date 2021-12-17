@@ -1,0 +1,74 @@
+.heading-one {
+  color: $white-color;
+  text-transform: uppercase;
+  font: {
+    family: $first-font-family;
+    size: $h1-size;
+    weight: normal;
+  }
+}
+.heading-two {
+  color: $white-color;
+  text-transform: uppercase;
+  font: {
+    family: $first-font-family;
+    size: $h2-size;
+    weight: normal;
+  }
+}
+.heading-three {
+  color: $white-color;
+  text-transform: uppercase;
+  font: {
+    family: $first-font-family;
+    size: $h3-size;
+    weight: normal;
+  }
+}
+.heading-four {
+  color: $white-color;
+  text-transform: uppercase;
+  font: {
+    family: $first-font-family;
+    size: $h4-size;
+    weight: normal;
+  }
+}
+.heading-five {
+  color: $grey-color;
+  text-transform: uppercase;
+  font: {
+    family: $second-font-family;
+    size: $h5-size;
+    weight: normal;
+  }
+  letter-spacing: 4.75px;
+}
+.subheading-one {
+  color: $white-color;
+  text-transform: uppercase;
+  font: {
+    family: $first-font-family;
+    size: $sub-h1-size;
+    weight: normal;
+  }
+}
+.subheading-two {
+  color: $white-color;
+  text-transform: uppercase;
+  font: {
+    family: $second-font-family;
+    size: $sub-h2-size;
+    weight: normal;
+  }
+  letter-spacing: 2.35px;
+}
+.nav-text {
+  color: $white-color;
+  text-transform: uppercase;
+  font: {
+    family: $second-font-family;
+    size: $nav-text-size;
+  }
+  letter-spacing: 2.7px;
+}

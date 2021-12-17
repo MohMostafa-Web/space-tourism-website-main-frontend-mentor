@@ -1,0 +1,109 @@
+.page-container.home-page {
+  background-image: url(../assets/home/background-home-desktop.jpg);
+  @media #{$maxMedium} {
+    background-image: url(../assets/home/background-home-tablet.jpg);
+  }
+  @media #{$maxMobile} {
+    background-image: url(../assets/home/background-home-mobile.jpg);
+  }
+}
+/* Start Home Section */
+.home {
+  .container {
+    min-height: calc(100vh - 98px);
+    padding-bottom: 90px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-end;
+    gap: 60px;
+    @media #{$maxMedium} {
+      padding-top: 60px;
+      padding-bottom: 60px;
+      justify-content: center;
+    }
+    .intro-text {
+      @media #{$minLarge} {
+        padding-left: 100px;
+      }
+      @media #{$minSmall} {
+        margin-top: 50px;
+      }
+      @media #{$maxMedium} {
+        width: 100%;
+        text-align: center;
+      }
+      h1 {
+        margin-top: 40px;
+        @media #{$maxMedium} {
+          margin-top: 15px;
+        }
+        @media #{$maxMobile} {
+          font-size: 95px;
+        }
+      }
+      h5 {
+        @media #{$maxMedium} {
+          font-size: 16px;
+        }
+      }
+      p {
+        max-width: 435px;
+        @media #{$maxMedium} {
+          width: 90%;
+          margin: 0 auto 30px;
+        }
+      }
+    }
+    .explore-btn {
+      display: block;
+      width: 220px;
+      height: 220px;
+      line-height: 225px;
+      margin-right: 75px;
+      background-color: $white-color;
+      color: $dark-color;
+      text-align: center;
+      text-transform: uppercase;
+      font: {
+        family: $first-font-family;
+        size: 28px;
+      }
+      letter-spacing: 2px;
+      @include prefixer(border-radius, 50%, webkit moz);
+      position: relative;
+      z-index: 1;
+      @media #{$maxMedium} {
+        margin-right: 0;
+      }
+      &::before {
+        content: '';
+        width: calc(100% + 100px);
+        height: calc(100% + 100px);
+        background-color: #23252e;
+        position: absolute;
+        top: -50px;
+        left: -50px;
+        z-index: -2;
+        @include prefixer(border-radius, 50%, webkit moz);
+        transition: opacity 0.3s;
+        opacity: 0;
+      }
+      &:hover::before {
+        opacity: 1;
+      }
+      &::after {
+        content: '';
+        width: 100%;
+        height: 100%;
+        background-color: #fff;
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: -1;
+        @include prefixer(border-radius, 50%, webkit moz);
+      }
+    }
+  }
+}
+/* End Home Section */
